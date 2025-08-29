@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Patagonia Products & Reviews — SQLite Scraper (Starter)
 
 This starter collects product metadata (via JSON-LD) and any in-page `schema.org/Review` from Patagonia product URLs discovered through sitemaps, and stores them in **SQLite**.
@@ -52,3 +53,6 @@ LIMIT 20;
 - The starter extracts product info primarily from **JSON‑LD** and basic reviews from in‑page **schema.org**. Many e‑commerce sites load reviews through providers (e.g., Bazaarvoice, Yotpo). Add a module to query the public "display" endpoints if they exist (and abide by their TOS).
 - Rate limits and polite crawling are built in; you can tune concurrency, delay, and URL limits.
 - For persistent/hosted usage, you can wrap the SQLite DB with a lightweight FastAPI service (not included in this starter).
+=======
+# Patagonia
+>>>>>>> fba448ad80fa3e929e74c2d7e398d7b9aff3a108
